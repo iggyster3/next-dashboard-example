@@ -62,6 +62,13 @@ export default function LoginForm() {
           </div>
         </div>
         <LoginButton />
+        <div>
+          <a>
+          <label htmlFor="amount" className="mb-2 block text-sm font-medium">
+            Forget Your Password
+          </label>
+          </a>
+        </div>
         <div
           className="flex h-8 items-end space-x-1"
           aria-live="polite"
