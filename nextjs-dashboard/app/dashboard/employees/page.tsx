@@ -54,6 +54,18 @@ export default function Page() {
                 aria-describedby="amount-error"
                 className="peer block w-full rounded-md border border-gray-200 py-2 pl-10 text-sm outline-2 placeholder:text-gray-500"
               />
+              <label htmlFor="amount" className="mb-2 block text-sm font-medium">
+                Gender
+            </label>
+              <input
+                id="employee_middle_name"
+                name="employee_middle_name"
+                type="text"
+                step="0.01"
+                placeholder="Employee Middle Name"
+                aria-describedby="amount-error"
+                className="peer block w-full rounded-md border border-gray-200 py-2 pl-10 text-sm outline-2 placeholder:text-gray-500"
+              />
             </div> 
             </div>
             <div id="customer-error" aria-live="polite" aria-atomic="true">
